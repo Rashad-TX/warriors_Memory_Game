@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Faster+One&family=Press+Start+2P&family=Rampart+One&family=Wallpoet&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href ="styles.css">
+    <title>Warriors Memory Game</title>
+</head>
+<body>
+<h1 class="heading">WARRIORS MATCH GAME</h1>
+
+<!--Overlay Section-->
+<div class="overlay-text visible"> 
+    Click to Start Tip Off!
+  </div>
+  <div id="game-over-text" class="overlay-text">
+    YOU LOST!
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div id="victory-text" class="overlay-text">
+    BUZZER BEATER!!
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+<!--End Of Overlay Section-->
+
+<!--Scoreboard-->
+
+    <div class="game-info-container">
+    <p  class="shot-clock">SHOT CLOCK:<span id="shot-clock">90</span></p>
+    <p class="shot-attempts">SHOT ATTEMPTS:<span id ="shot-attempts">00</span></p>
+    <p class = "shots-made">SHOTS MADE: <span id="shots-made">00</span></p>
+    <p class="shot-percentage">SHOT PER: <span id="shot-percentage"> 00%</span></p>
+    </div>
+<!--End Of Scoreboard-->
+
+<!--Card Section-->
+<div class ="game-container">
+<div class="card">
+    <div class="card-back card-face">
+         <img class="gs-logo" src="Assets/Images/back.png">
+    </div>
+    <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/bros.png">
+    </div>
+</div>
+
+  <div class="card">
+    <div class="card-back card-face">
+         <img class="gs-logo" src="Assets/Images/back.png">
+    </div>
+    <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/draymond.png">
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-back card-face">
+         <img class="gs-logo" src="Assets/Images/back.png">
+    </div>
+    <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/klay.png">
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-back card-face">
+         <img class="gs-logo" src="Assets/Images/back.png">
+    </div>
+    <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/kuminga.png">
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-back card-face">
+         <img class="gs-logo" src="Assets/Images/back.png">
+    </div>
+    <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/poole.png">
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-back card-face">
+         <img class="gs-logo" src="Assets/Images/back.png">
+    </div>
+    <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/steph.png">
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-back card-face">
+         <img class="gs-logo" src="Assets/Images/back.png">
+    </div>
+    <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/trio.png">
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-back card-face">
+         <img class="gs-logo" src="Assets/Images/back.png">
+    </div>
+    <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/wiggs.png">
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-back card-face">
+         <img class="gs-logo" src="Assets/Images/back.png">
+    </div>
+    <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/bros.png">
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-back card-face">
+         <img class="gs-logo" src="Assets/Images/back.png">
+    </div>
+    <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/draymond.png">
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-back card-face">
+         <img class="gs-logo" src="Assets/Images/back.png">
+    </div>
+    <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/klay.png">
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-back card-face">
+         <img class="gs-logo" src="Assets/Images/back.png">
+    </div>
+    <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/kuminga.png">
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-back card-face">
+         <img class="gs-logo" src="Assets/Images/back.png">
+    </div>
+    <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/poole.png">
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-back card-face">
+         <img class="gs-logo" src="Assets/Images/back.png">
+    </div>
+    <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/steph.png">
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-back card-face">
+         <img class="gs-logo" src="Assets/Images/back.png">
+    </div>
+    <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/trio.png">
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-back card-face">
+         <img class="gs-logo" src="Assets/Images/back.png">
+    </div>
+    <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/wiggs.png">
+    </div>
+</div>
+    <div class="card">
+        <div class="card-back card-face">
+             <img class="gs-logo" src="Assets/Images/back.png">
+        </div>
+        <div class="card-front card-face">
+              <img class="card-value" src="Assets/Images/dbz.png">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+             <img class="gs-logo" src="Assets/Images/back.png">
+        </div>
+        <div class="card-front card-face">
+              <img class="card-value" src="Assets/Images/game6.png">
+        </div>
+      </div>
+  </div>
+
+<!--End Of Card Section-->
+
+ <script src="js.js"></script>
+</body>
+</html>
